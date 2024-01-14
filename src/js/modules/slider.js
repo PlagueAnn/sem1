@@ -1,8 +1,8 @@
 import Swiper from 'swiper';
 import { Navigation, Pagination } from 'swiper/modules';
 
-const swiper = new Swiper('.swiper', {
-    allowTouchMove: true,
+const swiper = new Swiper('.what-can-sell__online-shop', {
+  modules: [Navigation, Pagination],
     autoHeight: true,
     autoplay: {
         delay: 2500,
@@ -13,13 +13,13 @@ const swiper = new Swiper('.swiper', {
 
     breakpoints:{ 
         559.98: { 
-          slidesPerView: 2, 
+          slidesPerView: 1, 
         }, 
         1023.98: { 
-          slidesPerView: 3, 
+          slidesPerView: 1, 
         }, 
         1200: { 
-          slidesPerView: 4, 
+          slidesPerView: 2, 
         }, 
       },
     navigation: { 
